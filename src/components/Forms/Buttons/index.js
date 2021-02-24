@@ -1,7 +1,7 @@
 import React from "react";
 import "./styles.scss";
 
-const Buttons = ({ children, ...otherProps }) => {
+const Button = ({ children, ...otherProps }) => {
   return (
     <button {...otherProps} className="btn">
       {children}
@@ -10,4 +10,4 @@ const Buttons = ({ children, ...otherProps }) => {
 };
 
 // into Sign in page
-export default Buttons;
+export default Button;
