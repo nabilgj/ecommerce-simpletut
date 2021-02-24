@@ -39,6 +39,16 @@
       }
       li {
         list-style-type: none;
+        display: inline-block;
+        margin: 1.5rem;
+
+        &:last-child {
+          margin-right: 0;
+        }
+
+        span {
+          cursor: pointer;
+        }
 
         a {
           font-size: 1.8rem;
