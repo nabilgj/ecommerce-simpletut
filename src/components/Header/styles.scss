@@ -3,15 +3,15 @@
   box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.1);
 
   .wrap {
-    max-width: 1450px;
-    margin: 0 auto;
     position: relative;
     height: 100%;
+    max-width: 1450px;
+    margin: 0 auto;
 
     .logo {
       width: 13rem;
       position: absolute;
-      left: 40px;
+      left: 20px;
       top: 50%;
       -webkit-transform: translateY(-50%);
       -mox-transform: translateY(-50%);
@@ -21,6 +21,32 @@
         display: block;
         width: 100%;
         margin: 0;
+      }
+    }
+
+    .callToActions {
+      position: absolute;
+      right: 20px;
+      top: 50%;
+      -webkit-transform: translateY(-50%);
+      -mox-transform: translateY(-50%);
+      transform: translateY(-50%);
+
+      ul,
+      li {
+        margin: 0;
+        padding: 0;
+      }
+      li {
+        list-style-type: none;
+
+        a {
+          font-size: 1.8rem;
+          line-height: 1;
+          color: #000;
+          text-decoration: none;
+          text-transform: uppercase;
+        }
       }
     }
   }
