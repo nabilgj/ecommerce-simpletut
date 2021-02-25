@@ -7,9 +7,8 @@ import { firebaseConfig } from "./config";
 
 firebase.initializeApp(firebaseConfig);
 
-// auth into app
+// auth into app, EmailPassword
 export const auth = firebase.auth();
-
 export const firestore = firebase.firestore();
 
 // into Signin page where it triggers onClick on Button

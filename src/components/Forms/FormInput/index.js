@@ -6,7 +6,12 @@ const FormInput = ({ handleChange, label, ...otherProps }) => {
     <div className="formRow">
       {label && <label>{label}</label>}
 
-      <input className="formInput" onChange={handleChange} {...otherProps} />
+      <input
+        className="formInput"
+        onChange={handleChange}
+        {...otherProps}
+        required
+      />
     </div>
   );
 };
